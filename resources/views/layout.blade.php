@@ -47,7 +47,7 @@
 	<!-- Start header -->
 		<section id="header">
 			<div class="logo">
-				<a href="index.html"><img src="images/red-logo.png" alt="image"/></a>
+				<a href="index.html"><img src="images/logo-inicio.png" alt="image"/></a>
 			</div>
 			<div class="menu-top">
 				<div class="logo-bottom"></div>
@@ -61,46 +61,10 @@
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav">
 										<li class="dropdown">
-										  <a href="index.html">Home</a>
-										 <ul class="dropdown-menu">
-											<li><a href="http://themelan.com/html/redbowl/">Redbowl Red</a></li>
-											<li><a href="http://themelan.com/html/redbowl/blue/">Redbowl Blue</a></li>
-											<li><a href="http://themelan.com/html/redbowl/brown/">Redbowl Brown</a></li>
-											<li><a href="http://themelan.com/html/redbowl/olive/">Redbowl Olive</a></li>
-										  </ul>
-										</li>
-										<li class="dropdown">
-										  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-										  <ul class="dropdown-menu">
-											<li><a href="gallery.html">Gallery</a></li>
-											<li class="dropdown">
-												<a href="blog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 	aria-expanded="false">Blog</a>
-												<ul class="sub-menu">
-													<li class="child"><a href="categories.html">Categories</a></li>
-													<li class="child"><a href="tag.html">Tag pages</a></li>
-													<li class="child"><a href="super-user.html">User Page</a></li>
-													<li class="child"><a href="single.html">Single Page</a></li>
-												</ul>
-											</li>
-											<li><a href="member-login.html">Member Login</a></li>
-											<li><a href="registration.html">Registration</a></li>
-											<li><a href="404page.html">404 Page</a></li>
-										  </ul>
-										</li>
-										
-										<li class="dropdown">
-										  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Food Menu</a>
-										  <ul class="dropdown-menu">
-											<li><a href="food-menu.html">Lunch Special and Salad</a></li>
-											<li><a href="food-menu2.html">Soup,Stew,Casserole</a></li>
-											<li><a href="food-menu3.html">Redbowl Special Menu</a></li>
-										  </ul>
-										</li>
-										<li><a href="about-us.html">About Us</a></li>
-										<li><a href="our-chefs.html">Our Chefs</a></li>
-										<li><a href="online-order.html">Order Online</a></li>
-										<li><a href="reservation.html">Resarvation</a></li>
-										<li><a href="contact-us.html">Contact Us</a></li>
+										  <a href="home">Inicio</a>
+										</li>										
+										<li><a href="about-us.html">Nosotros</a></li>
+										<li><a href="contact-us.html">Contactanos</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div><!-- /.container-fluid -->
@@ -237,8 +201,8 @@
 		<section id="slider-bottom">
 			<div class="container">
 				<div class="banner">
-                    <img src="images/banner3.png"  alt="image" />
-                    <p>Welcome to Redbowl Restaurant</p>
+                <!--    <img src="images/banner3.png"  alt="image" /> -->
+                    <p>Bienvenido a Hecho con Amor</p>
                 </div>
 			</div><!-- .container-->
 		</section><!-- #slider-bottom-->
@@ -256,24 +220,25 @@
 				</div>
 				<div class="module-box pp">
 					<div class="wrapper-title">
-						<h3>Serving quality foods that will make you remember coming back to us</h3>
+						<h3>Servimos alimentos de calidad que te harán recordar volver con nosotros</h3>
 					</div>
 					<div id="feature" class="row ">
 						<div class="col-md-4 col-sm-4">
 							<div class="content-box ">
-								<h2>Our Story</h2>
+								<h2>Nuestra Historia</h2>
 								<div class="img effects clearfix">
-									<a href="images/f1.jpg"><img src="http://placehold.it/550x297"  alt="image"/></a>
+									<a href="historia-550x297.jpg"><img src="http://placehold.it/550x297"  alt="image"/></a>
 									<div class="overlay">
 										<a  href="http://placehold.it/550x297" rel="prettyPhoto[pp]" class="expand">+</a>
 										<a class="close-overlay hidden">x</a>
 									</div>
 								</div>
-								<p>Serving as a kitchen cook for the royal court cuisine of the Joseon Dynasty, Jang Geum aspired to attain the secrets of Korean cooking. She was later appointed as the first female royal physician to the King, and she applied the culinary and medicinal secrets that she discovered to the cure of the King Jung Jong's illness.</p>
+								<p>Hecho con amor nace con la idea de brindar un producto fresco y delicioso como si hubiera sido
+								realizado en casa. Con un toque distintivo en la elaboracion de nuestras masas que combina disferentes
+								sabores y colores. </p>
 								<a href="#" class="button btn btn-primary hvr-ripple-out">More...</a>
 							</div>
-						</div>
-						
+						</div>						
 						<div class="col-md-4 col-sm-4">
 							<div class="content-box">
 								<h2>Beautiful Dishes</h2>
@@ -474,6 +439,6 @@
 	</body>
 
     @yield('content')
-    
+
 </html>
 

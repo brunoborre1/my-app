@@ -1,0 +1,329 @@
+body{background:#347081;}
+
+/*-----------------------------------
+        header-top
+-----------------------------------*/
+
+.navbar-default .navbar-toggle {
+    border-color: #002530;
+}
+#header .menu-top .logo-bottom{
+	background-color: #002530;
+}
+#header .menu-top .logo-bottom:before{
+	border-top:1px solid #347081;
+	border-left:1px solid #347081;
+}
+#header .menu-top .logo-bottom:after{
+	border-top:1px solid #347081;
+	border-right:1px solid #347081;
+}
+#header .menu-top{
+    border-bottom: 1px solid #347081;
+}
+
+/*-----------------------------------
+        header-main-menu
+-----------------------------------*/
+#header{
+	background-color:#002530;
+}
+#header .navbar-default {
+	background-color:#002530;
+	border-color: #002530;
+}
+#header .dropdown-menu>li>a:hover,
+#header .navbar-default ul.navbar-nav>li>a:hover{
+	color:#347081;
+}
+#header .dropdown-menu>li>a{
+    color: #fff;
+	background: black;
+}
+#header .child a{
+	color: #fff;
+}
+#header .child > a:hover,
+#header .dropdown-menu>li>a:hover {
+    color: #347081;
+	background: black;
+}
+/*-----------------------------------
+    #revolution  #slider-bottom
+-----------------------------------*/
+#revolution,
+#slider-bottom{
+	background: #002530 !important;
+}
+/*-----------------------------------
+        #module
+-----------------------------------*/
+.btn-primary.focus, .btn-primary:focus, .btn.focus, .btn:focus, .btn:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #347081;
+}
+.hvr-ripple-out:before {
+    border:5px solid;
+	border-color:#347081 ;
+}
+.btn-primary,
+.btn-primary:hover{border-color:#347081;background-color:#347081;}
+.btn:hover{background-color:#347081 !important;}
+.button{
+	background: #347081;
+    color: #fff;
+}
+a.expand {
+  border: solid 5px #347081;
+  color: #347081;
+}
+#module .content-box h2,
+#about-us .s-content h4,
+#module .s-content h4{
+	color:#347081;
+}
+/*-----------------------------------
+        Main body top carve
+-----------------------------------*/
+div.main-body-top-mid{
+	background:#347081;
+}
+/*-----------------------------------
+        #blog 
+-----------------------------------*/
+.link a{
+	color: #fff;
+    background: #002530;
+}
+.link a:hover{
+	background:#002530;
+}
+#blog .categories h1,
+#blog .comments-box span,
+#about-us  .experience h1,
+#about-us  .philosophy h1,
+#blog .my-calendar h1,
+#blog .comments h1,
+#blog .tag h1{
+    color: #347081;
+}
+#blog .comments-box h4{
+	color:#797979;
+}
+.hvr-rectangle-out:before {
+    border:5px solid;
+	border-color:#347081;
+	background:#347081;
+}
+/*-----------------------------------
+        Calendar
+-----------------------------------*/
+
+div.zabuto_calendar .badge-today, 
+div.zabuto_calendar div.legend span.badge-today,
+.badge {
+    background-color: #347081;
+}
+/*-----------------------------------
+        Category Blog
+-----------------------------------*/
+#category .c-content5 h2,
+#category .c-content4 h2,
+#category .c-content3 h2,
+#category .c-content2 h2,
+#category .c-content1 h2{
+    color: #347081;
+}
+#category .c-content5 a,
+#category .c-content4 a,
+#category .c-content3 a,
+#category .c-content2 a,
+#category .c-content1 a{
+    color: #fff;
+    background: #347081;
+    border: 1px solid #347081;
+}
+.hvr-rectangle-in:before{
+    border:5px solid;
+	background: #002530;
+	border-color:#002530;
+}
+/*----------------------------------------------
+ #Tag Page #single Page #Contact-us #Super-User
+-----------------------------------------------*/
+#blog .super-user h2,
+#blog .cat-left h3,
+#blog .cat-left1 h3,
+#blog .author i,
+#contact-us .c-right h1,
+#contact-us .c-left-bottom h1,
+#contact-us .c-left-top h1{
+	color: #347081;
+}
+#contact-us .c-link a{
+	color: #fff;
+	background:#002530;
+}
+#contact-us .c-link a:hover{
+    background: #347081;
+}
+/*-----------------------------------
+        Member-Access
+-----------------------------------*/
+#member .my-calendar h1,
+#member .member-left h1{
+	color: #347081;
+}
+#member .log-link a{
+	color: #fff;
+    background: #002530;
+}
+#member .log-link a:hover{
+	background:#002530;
+}
+#member .log-forgot ul li a{
+	color: #347081;
+}
+/*-----------------------------------
+        #Food-Menu
+-----------------------------------*/
+#food-menu .slide-content .f-overlay,
+#food-menu .slide-content .overlay{
+    color: #fff;
+	border:5px solid #347081;
+}
+#food-menu .carousel-control {
+    color: #347081;
+}
+#food-menu .carousel-control.right,
+#food-menu .carousel-control.left:hover{color:#347081;}
+
+/*-----------------------------------
+        #food-menu....2
+-----------------------------------*/
+.hvr-radial-out:before {
+    border:5px solid;
+	border-color:#347081 ;
+	background:#347081;
+}
+#food-menu .is-checked{
+    color: #fff;
+    background: #347081;
+	border:1px solid #347081;
+}
+
+/*-----------------------------------
+        #Resarvation
+-----------------------------------*/
+#reservation  .r-table h1{
+	color: #347081;
+}
+#about-us .content-top a:hover,
+#food-menu .content-top a:hover,
+#reservation .content-top a:hover{color: #fff;}
+
+#about-us .content,
+#food-menu .content1,
+#reservation .content {
+	border: 2px solid #347081;
+    background: #002530;
+}
+ #about-us  .content-top a,
+ #food-menu  .content-top a,
+ #reservation  .content-top a,
+ #about-us .content a,
+ #food-menu .content1 a,
+ #reservation .content a,
+ #about-us .content a:hover,
+ #food-menu .content1 a:hover,
+ #reservation .content a:hover{
+	color: #fff;
+    background: #347081;
+}
+#about-us .content img:hover,
+#food-menu  .content1 img:hover,
+#reservation  .content img:hover{
+	border-color: #347081;
+}
+#reservation  .r-box h1{
+	color: #347081;
+}
+/*-----------------------------------
+  #order-online #About-Us #Our-Chefs
+-----------------------------------*/
+#our-chefs .chefs-box h2,
+#about-us .about-top h2,
+#order-online .order-top h2{
+	color: #347081;
+}
+#order-online .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #347081;
+    border: 1px solid #347081;
+}
+#order-online .nav-tabs>li>a:hover {
+    border-color: #347081 #347081 #002530;
+}
+#order-online .nav>li>a:focus, .nav>li>a:hover {
+    background-color: #347081;
+}
+#order-online .menu-top p,
+#order-online .option span,
+#order-online .affix-top i,
+#order-online .add-fav i{
+    color: #347081;
+}
+#order-online .modal-text{
+	color: #fff;
+    background: #347081;
+}
+#order-online .btn-primary{
+    color: #fff;
+    background-color: #347081;
+    border-color: #347081;
+}
+#order-online .btn-primary:hover{
+    color: #fff;
+    background-color: #002530;
+    border-color: #002530;
+}
+.btn-primary.focus, .btn-primary:focus, .btn.focus, .btn:focus, .btn:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
+#order-online .affix-tab,
+#order-online .affix-tab:hover,
+#order-online .affix-bottom{
+	color: #fff;
+    background: #347081;
+}
+#order-online .nav-tabs>li>a,
+#order-online .affix-top,
+#order-online .affix-bottom a,
+#order-online .affix2,
+#order-online .affix-bottom a:hover{
+	color: #fff;
+    background: #002530;
+}
+#order-online .affix2 img{
+    border: 1px solid #347081;
+}
+/*-----------------------------------
+        #Registration
+-----------------------------------*/
+#contact-us .error,
+#contact-us .registration h1{color: #347081;}
+
+/*-----------------------------------
+        #Bottom
+-----------------------------------*/
+#bottom{background: #002530 !important;}
+#bottom .bottom-box{border: 1px solid #347081;}
+#bottom .bottom-box h3 {color: #347081;}
+
+/*-----------------------------------
+        ii.footer
+-----------------------------------*/
+#footer{background: #002530 !important;}
+#footer .footer-content h4{font-family: 'PT Sans', sans-serif;color: #347081;}
+#footer .footer-content p span{color: #347081;}
+#footer .scrollup{border-top: 1px solid #347081;}
+#footer .scrollup img{ background-color: #002530;}
+#footer .scrollup a{color: #347081;}
+#footer .ch-info p a {background: #002530;}
+#footer .ch-info p a:hover {background: #347081;}
